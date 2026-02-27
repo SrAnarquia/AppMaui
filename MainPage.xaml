@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppScanner.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    BackgroundColor="#f4f6f9"
+    Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+
+        <!-- HEADER -->
+       <!-- <Grid BackgroundColor="#1e1e2f" HeightRequest="70">
+            <Label Text="QR Scanner"
+                   TextColor="White"
+                   FontSize="22"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+        </Grid>
+        -->
+
+        <!-- CONTENT -->
+        <VerticalStackLayout Grid.Row="1"
+                             Padding="25"
+                             Spacing="20">
+
+            <!-- CARD CAMARA -->
+            <Frame CornerRadius="20"
+               HasShadow="True"
+               Padding="0"
+               BackgroundColor="White"
+               HorizontalOptions="Fill"
+               VerticalOptions="FillAndExpand"> 
+
+                <Grid>
+                    <toolkit:CameraView
+                        x:Name="cameraView"
+                        HorizontalOptions="Fill"
+                        VerticalOptions="Fill"
+                        IsEnabled="True"/>      
+
+                    <!-- Overlay de carga -->
+                    <Grid x:Name="overlay"
+                          BackgroundColor="#88000000"
+                          IsVisible="False">  
+                        
+                        <ActivityIndicator x:Name="loader"
+                               IsRunning="True"
+                               Color="White"
+                               VerticalOptions="Center"
+                               HorizontalOptions="Center"/>
+                    </Grid>
+                </Grid>
+            </Frame>
+            <!-- BOTON BONITO -->
+            <Button Text="ENVIAR"
+                    Clicked="OnCaptureAndSend"
+                    HeightRequest="55"
+                    CornerRadius="15"
+                    FontAttributes="Bold"
+                    FontSize="18"
+                    TextColor="White"
+                    BackgroundColor="#1e1e2f">
+                <Button.Shadow>
+                    <Shadow Brush="#000000"
+                            Opacity="0.3"
+                            Offset="0,4"
+                            Radius="10"/>
+                </Button.Shadow>
+            </Button>
+
+        </VerticalStackLayout>
+
+        <!-- MENSAJE ANIMADO -->
+        <Frame x:Name="responseFrame"
+               Grid.Row="2"
+               BackgroundColor="#1e1e2f"
+               CornerRadius="0"
+               Padding="15"
+               IsVisible="False"
+               Opacity="0">
+
+            <Label x:Name="responseLabel"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+
+    </Grid>
+
+</ContentPage>

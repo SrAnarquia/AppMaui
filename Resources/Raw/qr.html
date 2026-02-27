@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>QR Scanner</title>
+    <script src="https://unpkg.com/html5-qrcode"></script>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background: black;
+            height: 100%;
+        }
+
+        #reader {
+            width: 100vw;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="reader"></div>
+
+    <script>
+        const html5QrCode = new Html5Qrcode("reader");
+        let scanning = false;
+
+        function onScanSuccess(decodedText) {
+            if (scanning) return;
+            scanning = true;
+
+            // 🔥 ENVIAMOS EL TEXTO A MAUI
+            window.location.href = "qr://" + encodeURIComponent(decodedText);
+
+            setTimeout(() => scanning = false, 1500);
+        }
+
+        Html5Qrcode.getCameras().then(devices => {
+            const cam = devices.find(d => d.label.toLowerCase().includes("back")) || devices[0];
+            html5QrCode.start(cam.id, { fps: 10, qrbox: 250 }, onScanSuccess);
+        });
+    </script>
+
+</body>
+</html>
