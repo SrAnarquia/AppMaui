@@ -58,6 +58,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLogo.scale-125.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appiconLogo.scale-100.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\appicon.ico
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\back.scale-100.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\CoreMessagingXP.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\dcompi.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\DirectML.dll
@@ -513,11 +514,13 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-125.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appiconLogo.scale-100.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\appicon.ico
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\resizetizer\r\back.scale-100.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauiimage.stamp
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\mauiimage.outputs
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AppScanner.AssemblyInfoInputs.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AppScanner.AssemblyInfo.cs
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AppScanner.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AppScanner.sourcelink.json
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\XamlC.stamp
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\AppScanner.csproj.Up2Date
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\CommunityToolkit.Maui.pri.xml
@@ -551,3 +554,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll

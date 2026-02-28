@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+	<!-- Tema principal MAUI -->
+	<style name="Maui.MainTheme"
+           parent="Theme.MaterialComponents.DayNight.NoActionBar">
+		<item name="android:statusBarColor">#1e1e2f</item>
+		<item name="android:navigationBarColor">#1e1e2f</item>
+	</style>
+
+	<!-- Tema Splash -->
+	<style name="Maui.SplashTheme"
+           parent="Theme.MaterialComponents.DayNight.NoActionBar">
+		<item name="android:windowBackground">@drawable/splash</item>
+	</style>
+
+</resources>

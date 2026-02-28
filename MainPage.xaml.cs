@@ -121,6 +121,34 @@ public partial class MainPage : ContentPage
         }
     }
 
+
+    private async void OnHistorialClicked(object sender, EventArgs e)
+    {
+        try
+        {
+            var hoy = DateTime.Today.ToString("yyyy-MM-dd");
+
+            var url = $"https://192.168.2.211:7203/api/lector/historial?fecha={hoy}";
+            var response = await _httpClient.GetAsync(url);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                await ShowMessage("No se pudo obtener el historial", "#ff0033");
+                return;
+            }
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            await Navigation.PushAsync(new HistorialPage(json));
+        }
+        catch (Exception ex)
+        {
+            await ShowMessage(ex.Message, "#ff0033");
+        }
+    }
+
+
+
 }
 
 

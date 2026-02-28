@@ -271,6 +271,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\ma
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@3x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot@2x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\dotnet_bot.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\Resources\back.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -304,6 +305,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\ma
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.AssemblyInfoInputs.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.AssemblyInfo.cs
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.csproj.CoreCompileInputs.cache
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.sourcelink.json
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\XamlC.stamp
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.csproj.Up2Date
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.dll
@@ -311,3 +313,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\ma
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.pdb
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.genruntimeconfig.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\ref\AppScanner.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll

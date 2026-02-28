@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="AppScanner.HistorialPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="#f4f6f9"
+    Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="Auto,*">
+
+        <!-- HEADER -->
+        <Grid BackgroundColor="#1e1e2f" HeightRequest="60">
+
+            <!-- BOTÓN BACK MÁS GRANDE -->
+            <ImageButton
+                    Source="back.png"
+                    Clicked="OnBack"
+                    BackgroundColor="Transparent"
+                    WidthRequest="64"
+                    HeightRequest="64"
+                    Padding="12"
+                    HorizontalOptions="Start"
+                    VerticalOptions="Center" />
+
+            <Label Text="Historial del Día"
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="18"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"/>
+        </Grid>
+
+        <!-- LISTA -->
+        <ScrollView Grid.Row="1">
+            <CollectionView x:Name="HistorialList"
+                            ItemsLayout="VerticalList"
+                            Margin="15">
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame CornerRadius="12"
+                               Padding="12"
+                               Margin="0,6"
+                               HasShadow="True"
+                               BackgroundColor="{AppThemeBinding Light=White, Dark=#1f2937}">
+
+                            <Grid ColumnDefinitions="*,Auto">
+
+                                <!-- NOMBRE (VISIBLE EN CLARO Y OSCURO) -->
+                                <Label Text="{Binding Nombre}"
+                                       FontAttributes="Bold"
+                                       FontSize="16"
+                                       TextColor="{AppThemeBinding Light=Black, Dark=#f9fafb}"/>
+
+                                <!-- HORA (NO SE TOCA) -->
+                                <Label Text="{Binding Hora}"
+                                       Grid.Column="1"
+                                       TextColor="Gray"/>
+                            </Grid>
+
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+
+            </CollectionView>
+        </ScrollView>
+
+    </Grid>
+</ContentPage>

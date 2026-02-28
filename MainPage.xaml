@@ -10,83 +10,84 @@
     <Grid RowDefinitions="Auto,*,Auto">
 
         <!-- HEADER -->
-       <!-- <Grid BackgroundColor="#1e1e2f" HeightRequest="70">
-            <Label Text="QR Scanner"
+        <Grid BackgroundColor="#1e1e2f" HeightRequest="60">
+            <Label Text=""
                    TextColor="White"
-                   FontSize="22"
+                   FontSize="18"
                    FontAttributes="Bold"
                    VerticalOptions="Center"
                    HorizontalOptions="Center"/>
         </Grid>
-        -->
 
         <!-- CONTENT -->
         <VerticalStackLayout Grid.Row="1"
-                             Padding="25"
-                             Spacing="20">
+                             Padding="20"
+                             Spacing="15">
 
-            <!-- CARD CAMARA -->
+            <!-- CAMARA -->
             <Frame CornerRadius="20"
-               HasShadow="True"
-               Padding="0"
-               BackgroundColor="White"
-               HorizontalOptions="Fill"
-               VerticalOptions="FillAndExpand"> 
+                   HasShadow="True"
+                   Padding="0"
+                   BackgroundColor="White"
+                   HeightRequest="420">
 
                 <Grid>
                     <toolkit:CameraView
                         x:Name="cameraView"
                         HorizontalOptions="Fill"
-                        VerticalOptions="Fill"
-                        IsEnabled="True"/>      
+                        VerticalOptions="Fill" />
 
-                    <!-- Overlay de carga -->
+                    <!-- Overlay carga -->
                     <Grid x:Name="overlay"
                           BackgroundColor="#88000000"
-                          IsVisible="False">  
-                        
+                          IsVisible="False">
+
                         <ActivityIndicator x:Name="loader"
-                               IsRunning="True"
-                               Color="White"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Center"/>
+                                           IsRunning="True"
+                                           Color="White"
+                                           VerticalOptions="Center"
+                                           HorizontalOptions="Center"/>
                     </Grid>
                 </Grid>
             </Frame>
-            <!-- BOTON BONITO -->
-            <Button Text="ENVIAR"
-                    Clicked="OnCaptureAndSend"
-                    HeightRequest="55"
-                    CornerRadius="15"
-                    FontAttributes="Bold"
-                    FontSize="18"
-                    TextColor="White"
-                    BackgroundColor="#1e1e2f">
-                <Button.Shadow>
-                    <Shadow Brush="#000000"
-                            Opacity="0.3"
-                            Offset="0,4"
-                            Radius="10"/>
-                </Button.Shadow>
-            </Button>
+
+            <!-- BOTONES -->
+            <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+
+                <Button Text="ENVIAR"
+                        Clicked="OnCaptureAndSend"
+                        HeightRequest="55"
+                        CornerRadius="15"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        TextColor="White"
+                        BackgroundColor="#1e1e2f"/>
+
+                <Button Text="HISTORIAL"
+                        Grid.Column="1"
+                        Clicked="OnHistorialClicked"
+                        HeightRequest="55"
+                        CornerRadius="15"
+                        FontAttributes="Bold"
+                        FontSize="16"
+                        TextColor="White"
+                        BackgroundColor="#3b82f6"/>
+            </Grid>
 
         </VerticalStackLayout>
 
-        <!-- MENSAJE ANIMADO -->
+        <!-- MENSAJE -->
         <Frame x:Name="responseFrame"
                Grid.Row="2"
                BackgroundColor="#1e1e2f"
-               CornerRadius="0"
-               Padding="15"
+               Padding="12"
                IsVisible="False"
                Opacity="0">
 
             <Label x:Name="responseLabel"
                    TextColor="White"
-                   HorizontalOptions="Center"
                    HorizontalTextAlignment="Center"/>
         </Frame>
 
     </Grid>
-
 </ContentPage>

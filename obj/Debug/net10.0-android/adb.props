@@ -1,2 +1,2 @@
-AdbTarget=-s RFCX90CPPLE
+AdbTarget=-s emulator-5554
 AdbOptions=

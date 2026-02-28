@@ -16,9 +16,12 @@ androidx.fragment.app.FragmentContainerView;C:\Users\Jonathan Corpus\Desktop\MVP
 attr;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\attr.xml
 background;obj\Debug\net10.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 background;obj\Debug\net10.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+base-config;obj\Debug\net10.0-android\res\xml\network_security_config.xml
+bitmap;obj\Debug\net10.0-android\res\drawable\splash.xml
 bitmap;obj\Debug\net10.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net10.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 cache-path;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\186\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
+certificates;obj\Debug\net10.0-android\res\xml\network_security_config.xml
 color;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\colors.xml
 color;obj\Debug\net10.0-android\res\values\colors.xml
 color;obj\Debug\net10.0-android\resizetizer\sp\values\maui_colors.xml
@@ -35,15 +38,19 @@ item;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\l
 item;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\styles.xml
 item;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\styles-material3.xml
 item;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\189\jl\res\values\values.xml
+item;obj\Debug\net10.0-android\res\drawable\splash.xml
+item;obj\Debug\net10.0-android\res\values\styles.xml
 item;obj\Debug\net10.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 item;obj\Debug\net10.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 layer-list;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\drawable\maui_splash.xml
 layer-list;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\drawable\maui_splash_image.xml
+layer-list;obj\Debug\net10.0-android\res\drawable\splash.xml
 layer-list;obj\Debug\net10.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 layer-list;obj\Debug\net10.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
 microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\layout\flyoutcontent.xml
 monochrome;obj\Debug\net10.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 monochrome;obj\Debug\net10.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
+network-security-config;obj\Debug\net10.0-android\res\xml\network_security_config.xml
 paths;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\186\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 resources;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\values\strings.xml
 resources;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\184\jl\res\values\values.xml
@@ -53,6 +60,7 @@ resources;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-andr
 resources;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\styles-material3.xml
 resources;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\189\jl\res\values\values.xml
 resources;obj\Debug\net10.0-android\res\values\colors.xml
+resources;obj\Debug\net10.0-android\res\values\styles.xml
 resources;obj\Debug\net10.0-android\resizetizer\sp\values\maui_colors.xml
 set;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\anim\enterfromleft.xml
 set;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\anim\enterfromright.xml
@@ -68,6 +76,7 @@ string;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android
 string;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\184\jl\res\values\values.xml
 style;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\styles.xml
 style;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\values\styles-material3.xml
+style;obj\Debug\net10.0-android\res\values\styles.xml
 translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\anim\enterfromleft.xml
 translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\anim\enterfromright.xml
 translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\183\jl\res\anim\exittoleft.xml
@@ -78,3 +87,4 @@ translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-andr
 translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\anim\nav_default_pop_exit_anim.xml
 translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\anim\nav_modal_default_enter_anim.xml
 translate;C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\lp\185\jl\res\anim\nav_modal_default_exit_anim.xml
+trust-anchors;obj\Debug\net10.0-android\res\xml\network_security_config.xml
