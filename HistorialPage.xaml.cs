@@ -18,6 +18,7 @@ public partial class HistorialPage : ContentPage
             lista.Add(new HistorialItem
             {
                 Nombre = item.GetProperty("nombre").GetString(),
+                Precio=item.GetProperty("precio").GetDecimal(),
                 Hora = item.GetProperty("hora").GetString()
             });
         }
@@ -34,5 +35,7 @@ public partial class HistorialPage : ContentPage
 public class HistorialItem
 {
     public string Nombre { get; set; }
+
+    public decimal Precio { get; set; }
     public string Hora { get; set; }
 }

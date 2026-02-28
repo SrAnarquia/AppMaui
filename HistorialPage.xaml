@@ -44,18 +44,34 @@
                                HasShadow="True"
                                BackgroundColor="{AppThemeBinding Light=White, Dark=#1f2937}">
 
-                            <Grid ColumnDefinitions="*,Auto">
+                            <Grid ColumnDefinitions="*,Auto"
+                                RowDefinitions="Auto,Auto">
 
-                                <!-- NOMBRE (VISIBLE EN CLARO Y OSCURO) -->
+                                <!-- NOMBRE -->
                                 <Label Text="{Binding Nombre}"
-                                       FontAttributes="Bold"
-                                       FontSize="16"
-                                       TextColor="{AppThemeBinding Light=Black, Dark=#f9fafb}"/>
+                                    Grid.Row="0"
+                                    Grid.Column="0"
+                                    FontAttributes="Bold"
+                                    FontSize="16"
+                                    TextColor="{AppThemeBinding Light=Black, Dark=#f9fafb}" />
 
-                                <!-- HORA (NO SE TOCA) -->
+                                <!-- PRECIO -->
+                                <Label Text="{Binding Precio, StringFormat='${0:N2}'}"
+                                    Grid.Row="0"
+                                    Grid.Column="1"
+                                    FontAttributes="Bold"
+                                    FontSize="16"
+                                    TextColor="Green"
+                                    HorizontalTextAlignment="End" />
+
+                                <!-- HORA -->
                                 <Label Text="{Binding Hora}"
-                                       Grid.Column="1"
-                                       TextColor="Gray"/>
+                                    Grid.Row="1"
+                                    Grid.Column="1"
+                                    TextColor="Gray"
+                                    FontSize="12"
+                                    HorizontalTextAlignment="End" />
+
                             </Grid>
 
                         </Frame>

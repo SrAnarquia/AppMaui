@@ -313,7 +313,3 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\ma
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.pdb
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\AppScanner.genruntimeconfig.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-maccatalyst\maccatalyst-x64\ref\AppScanner.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-maccatalyst\maccatalyst-x64\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll

@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppScanner")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+c37349c13b3b5d1a460665493a357db5ba8e88f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+730f12f28f78bc962c6099ada882950102b6da25")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppScanner")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppScanner")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

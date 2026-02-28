@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\historialpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:historialpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\historialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:historialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HistorialPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml.cs",
+              "RelativeDocumentMoniker": "HistorialPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml.cs",
+              "RelativeToolTip": "HistorialPage.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-28T18:47:09.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HistorialPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml",
+              "RelativeDocumentMoniker": "HistorialPage.xaml",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml",
+              "RelativeToolTip": "HistorialPage.xaml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwCcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-28T18:47:03.67Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
