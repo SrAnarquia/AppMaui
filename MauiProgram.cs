@@ -1,5 +1,8 @@
-﻿using CommunityToolkit.Maui;
+﻿using AppScanner.Services;
+using CommunityToolkit.Maui;
 using Microsoft.Extensions.Logging;
+
+using Plugin.Maui.Audio;
 
 namespace AppScanner
 {
@@ -25,6 +28,8 @@ namespace AppScanner
             };
 
             builder.Services.AddSingleton(new HttpClient(handler));
+            builder.Services.AddSingleton(AudioManager.Current);
+            builder.Services.AddSingleton<SoundService>();
 
 
 #if DEBUG

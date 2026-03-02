@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="AppScanner" mvid="13c8abe175fb47868f56eeb0762a345d">
+  <java-to-managed>
+    <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554453" />
+    <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554454" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554453" />
+    <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554454" />
+  </managed-to-java>
+</api>

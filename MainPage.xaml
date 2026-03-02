@@ -51,6 +51,36 @@
                 </Grid>
             </Frame>
 
+            <!-- PRECIO OPCIONAL -->
+            <Frame CornerRadius="15"
+                   HasShadow="True"
+                   Padding="12"
+                   BackgroundColor="White">
+
+                <VerticalStackLayout Spacing="8">
+
+                    <HorizontalStackLayout Spacing="10">
+                        <CheckBox x:Name="chkPrecioManual"
+                                  Color="#1e1e2f"
+                                  CheckedChanged="OnPrecioManualChecked"/>
+
+                        <Label Text="Asignar precio manual"
+                               VerticalOptions="Center"
+                               TextColor="#1e1e2f"
+                               FontAttributes="Bold"/>
+                    </HorizontalStackLayout>
+
+                    <Entry x:Name="txtPrecioManual"
+                           Placeholder="Ej: 10.00"
+                           Keyboard="Numeric"
+                           IsEnabled="False"
+                           BackgroundColor="#f4f6f9"
+                           TextColor="#1e1e2f"
+                           HeightRequest="45"/>
+                </VerticalStackLayout>
+            </Frame>
+
+
             <!-- BOTONES -->
             <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
 
@@ -88,6 +118,9 @@
                    TextColor="White"
                    HorizontalTextAlignment="Center"/>
         </Frame>
+
+       
+
 
     </Grid>
 </ContentPage>

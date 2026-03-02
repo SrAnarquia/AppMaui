@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VsWuP5pC5Cw=",
+  "dgSpecHash": "VuWA8+747g8=",
   "success": true,
   "projectFilePath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\AppScanner.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.windowsappsdk.runtime\\1.8.260101001\\microsoft.windowsappsdk.runtime.1.8.260101001.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.windowsappsdk.widgets\\1.8.251231004\\microsoft.windowsappsdk.widgets.1.8.251231004.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\microsoft.windowsappsdk.winui\\1.8.251222000\\microsoft.windowsappsdk.winui.1.8.251222000.nupkg.sha512",
+    "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\plugin.maui.audio\\4.0.0\\plugin.maui.audio.4.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.numerics.tensors\\9.0.0\\system.numerics.tensors.9.0.0.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\system.speech\\10.0.1\\system.speech.10.0.1.nupkg.sha512",
     "C:\\Users\\Jonathan Corpus\\.nuget\\packages\\xamarin.android.glide\\4.16.0.14\\xamarin.android.glide.4.16.0.14.nupkg.sha512",

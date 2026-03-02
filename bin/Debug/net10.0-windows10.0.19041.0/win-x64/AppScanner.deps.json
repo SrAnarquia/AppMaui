@@ -13,6 +13,7 @@
           "CommunityToolkit.Maui.Camera": "6.0.0",
           "Microsoft.Extensions.Logging.Debug": "10.0.0",
           "Microsoft.Maui.Controls": "10.0.41",
+          "Plugin.Maui.Audio": "4.0.0",
           "ZXing.Net.Maui": "0.7.4",
           "Microsoft.Web.WebView2.Core.Projection": "1.0.3179.45",
           "runtimepack.Microsoft.Windows.SDK.NET.Ref": "10.0.19041.57"
@@ -613,6 +614,17 @@
           }
         }
       },
+      "Plugin.Maui.Audio/4.0.0": {
+        "dependencies": {
+          "Microsoft.Maui.Controls": "10.0.41"
+        },
+        "runtime": {
+          "lib/net9.0-windows10.0.19041/Plugin.Maui.Audio.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "System.Numerics.Tensors/9.0.0": {
         "runtime": {
           "lib/net9.0/System.Numerics.Tensors.dll": {
@@ -893,6 +905,13 @@
       "sha512": "sha512-IbokgSGS7od6SJL5VD5PvA+EdZpoO+b9vDxxc6Myjspnhba3iYv53iM2q2MgxPGPvElKjpQrSx9+Q7ToFNeHpw==",
       "path": "microsoft.windowsappsdk.winui/1.8.251222000",
       "hashPath": "microsoft.windowsappsdk.winui.1.8.251222000.nupkg.sha512"
+    },
+    "Plugin.Maui.Audio/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-axet2WKKft9UAGTtCbflkMeWNmZHQJixIJxIbRzhRqoFifr5nFcZV0PWV/E0NPBUjkydBWVlRqXA1hQWMeY/0A==",
+      "path": "plugin.maui.audio/4.0.0",
+      "hashPath": "plugin.maui.audio.4.0.0.nupkg.sha512"
     },
     "System.Numerics.Tensors/9.0.0": {
       "type": "package",

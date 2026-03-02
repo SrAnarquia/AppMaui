@@ -1,5 +1,8 @@
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\AboutAssets.txt
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\error.mp3
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\qr.html
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\shot.mp3
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\success.mp3
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-100.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-125.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\splashSplashScreen.scale-150.png
@@ -394,6 +397,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AI.MachineLearning.Projection.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Widgets.Projection.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Microsoft.WinUI.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\Plugin.Maui.Audio.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\System.Numerics.Tensors.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\System.Speech.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\zxing.dll
@@ -554,3 +558,4 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-windows10.0.19041.0\win-x64\navigation.mp3

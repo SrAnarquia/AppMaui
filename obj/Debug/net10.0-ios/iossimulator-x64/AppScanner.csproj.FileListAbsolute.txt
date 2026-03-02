@@ -21,6 +21,7 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulat
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Essentials.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\Microsoft.Maui.Graphics.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\Plugin.Maui.Audio.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\zxing.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\ZXing.Net.MAUI.dll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-ios\iossimulator-x64\ar\Microsoft.Maui.Controls.resources.dll

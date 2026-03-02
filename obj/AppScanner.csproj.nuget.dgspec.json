@@ -89,6 +89,10 @@
               "version": "[10.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "ZXing.Net.Maui": {
               "target": "Package",
               "version": "[0.7.4, )"
@@ -416,6 +420,10 @@
               "target": "Package",
               "version": "[10.0.3, )",
               "autoReferenced": true
+            },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "ZXing.Net.Maui": {
               "target": "Package",
@@ -745,6 +753,10 @@
               "version": "[10.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
             "ZXing.Net.Maui": {
               "target": "Package",
               "version": "[0.7.4, )"
@@ -1067,6 +1079,10 @@
             "Microsoft.Maui.Controls": {
               "target": "Package",
               "version": "[10.0.41, )"
+            },
+            "Plugin.Maui.Audio": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             },
             "ZXing.Net.Maui": {
               "target": "Package",
