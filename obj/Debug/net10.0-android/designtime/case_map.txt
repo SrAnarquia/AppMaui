@@ -1,3 +1,13 @@
-values\colors;values\colors
-values\styles;values\styles
-xml\network_security_config;xml\network_security_config
+appicon\appicon;appicon\appicon
+images\back;images\back
+images\comida;images\comida
+images\desayuno;images\desayuno
+images\dotnet_bot;images\dotnet_bot
+images\pedido;images\pedido
+raw\aboutassets;raw\AboutAssets
+raw\error;raw\error
+raw\navigation;raw\navigation
+raw\qr;raw\qr
+raw\shot;raw\shot
+raw\success;raw\success
+splash\splash;splash\splash

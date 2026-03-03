@@ -14,7 +14,9 @@ public class ScannerService
 
     public async Task<(bool success, string message)> EnviarImagenAsync(
         Stream imageStream,
-        decimal? precioManual)
+        decimal? precioManual,
+        string? servicio,
+        string? descripcion)
     {
         try
         {
@@ -24,6 +26,7 @@ public class ScannerService
 
             using var content = new MultipartFormDataContent();
 
+            //Se agrega contenido de precio como parametro a la API
             if (precioManual.HasValue)
             {
                 content.Add(
@@ -36,8 +39,19 @@ public class ScannerService
             fileContent.Headers.ContentType =
                 new System.Net.Http.Headers.MediaTypeHeaderValue("image/jpeg");
 
+            //Se agrega contenido de imagen a la API
             content.Add(fileContent, "image", "qr.jpg");
 
+           
+            //Se agrega contenido de servicio
+            content.Add(new StringContent(servicio), "servicio");
+
+            //Se agrega descripcion de servicio
+            content.Add(new StringContent(descripcion), "descripcion");
+
+
+
+            //Se agrega contenido
             var response = await _httpClient.PostAsync(
                 "https://192.168.2.211:7203/api/lector/imagen",
                 content);

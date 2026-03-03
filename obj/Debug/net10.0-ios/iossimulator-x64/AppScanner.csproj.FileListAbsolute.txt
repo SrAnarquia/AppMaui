@@ -279,9 +279,10 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulat
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_C7D3FA27F65286DBD2B9D28383F90F57DB892AFA047EEB447073F112A9E3E91E@2x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\sp\splash_C7D3FA27F65286DBD2B9D28383F90F57DB892AFA047EEB447073F112A9E3E91E@3x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\mauisplash.stamp
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\back.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\comida.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\desayuno.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\pedido.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appiconItunesArtwork.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon83.5x83.5@2x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon76x76@2x.png
@@ -294,7 +295,9 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulat
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@3x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\appicon20x20@2x.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Assets.xcassets\appicon.appiconset\Contents.json
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\back.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@3x.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot@2x.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\dotnet_bot.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.stamp
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\mauiimage.outputs
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\f\MauiInfo.plist
@@ -325,6 +328,3 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulat
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\AppScanner.pdb
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\AppScanner.genruntimeconfig.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\ref\AppScanner.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\comida.png
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\desayuno.png
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\pedido.png

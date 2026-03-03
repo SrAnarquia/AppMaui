@@ -2,6 +2,7 @@ using AppScanner.Services;
 using Microsoft.Maui.Controls;
 using Plugin.Maui.Audio;
 using System.Globalization;
+using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 
@@ -24,6 +25,7 @@ public partial class ComidaPage : ContentPage
     private IAudioPlayer? _preloadedShotPlayer;
 
     public ComidaPage(
+    HttpClient httpClient,
     ScannerService scannerService,
     IAudioManager audioManager,
     SoundService soundService)
@@ -32,6 +34,7 @@ public partial class ComidaPage : ContentPage
         _scannerService = scannerService;
         _audioManager = audioManager;
         _soundService = soundService;
+        _httpClient = httpClient;
     }
     #endregion
 
@@ -57,9 +60,12 @@ public partial class ComidaPage : ContentPage
             ShowLoader(true);
             await PlaySound(SoundType.CameraShot);
 
+            //Parametros para registrar
             decimal? precioManual = null;
+            string? descripcion = "";
+            string? servicio = "Comida";
 
-            if (chkPrecioManual.IsChecked)
+            if (swPrecioManual.IsToggled)
             {
                 if (!decimal.TryParse(txtPrecioManual.Text, out var precio) || precio <= 0)
                 {
@@ -67,7 +73,14 @@ public partial class ComidaPage : ContentPage
                     return;
                 }
 
+                if (string.IsNullOrWhiteSpace(txtDescripcion.Text))
+                {
+                    await ShowMessage("Agrega una descripción breve", "#ff0033");
+                    return;
+                }
+
                 precioManual = precio;
+                descripcion = txtDescripcion.Text.Trim();
             }
 
             var stream = await cameraView.CaptureImage(CancellationToken.None);
@@ -78,11 +91,22 @@ public partial class ComidaPage : ContentPage
                 return;
             }
 
-            var (success, message) =
-                await _scannerService.EnviarImagenAsync(stream, precioManual);
+            var (success, message) = await _scannerService.EnviarImagenAsync(stream, precioManual,servicio,descripcion);
 
             if (success)
             {
+                //  Si se usó precio manual, limpiar campos para evitar doble envío
+                if (swPrecioManual.IsToggled)
+                {
+                    txtPrecioManual.Text = string.Empty;
+                    txtDescripcion.Text = string.Empty;
+
+                    // Opcional: apagar el switch automáticamente
+                    swPrecioManual.IsToggled = false;
+                }
+
+
+
                 await PlaySound(SoundType.Success);
                 await ShowMessage("? " + message, "#1e1e2f");
             }
@@ -217,15 +241,21 @@ public partial class ComidaPage : ContentPage
     #endregion
 
     #region AgregarPrecioManual
-    private void OnPrecioManualChecked(object sender, CheckedChangedEventArgs e)
+    private async void OnPrecioManualToggled(object sender, ToggledEventArgs e)
     {
-        txtPrecioManual.IsEnabled = e.Value;
-        txtPrecioManual.BackgroundColor = e.Value
-            ? Colors.White
-            : Color.FromArgb("#f4f6f9");
+        if (e.Value)
+        {
+            precioManualContainer.IsVisible = true;
+            await precioManualContainer.FadeTo(1, 200);
+        }
+        else
+        {
+            await precioManualContainer.FadeTo(0, 200);
+            precioManualContainer.IsVisible = false;
 
-        if (!e.Value)
             txtPrecioManual.Text = string.Empty;
+            txtDescripcion.Text = string.Empty;
+        }
     }
     #endregion
 

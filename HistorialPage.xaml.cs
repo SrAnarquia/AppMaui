@@ -24,8 +24,9 @@ public partial class HistorialPage : ContentPage
                 Nombre = item.GetProperty("nombre").GetString(),
                 Precio = item.GetProperty("precio").GetDecimal(),
                 Folio = item.GetProperty("folio").GetInt32(),
-                Hora = 
-                item.GetProperty("hora").GetString()
+                Cantidad = item.GetProperty("cantidad").GetInt32(),
+                Servicio = item.GetProperty("servicio").GetString(),
+                Hora = item.GetProperty("hora").GetString()
             });
         }
 
@@ -49,9 +50,9 @@ public partial class HistorialPage : ContentPage
 public class HistorialItem
 {
     public string Nombre { get; set; }
-
     public decimal Precio { get; set; }
-
+    public int Cantidad { get; set; }
+    public string Servicio { get; set; }
     public int Folio { get; set; }
     public string Hora { get; set; }
 }

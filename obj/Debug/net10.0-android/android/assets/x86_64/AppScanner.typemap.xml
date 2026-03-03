@@ -1,10 +1,10 @@
-<api type="debug" assembly-name="AppScanner" mvid="64b0765b0e8141a69552b11235ac3353">
+<api type="debug" assembly-name="AppScanner" mvid="a72e487bcdf64a30a559ab92cb975342">
   <java-to-managed>
-    <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554456" />
-    <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554457" />
+    <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554457" />
+    <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554458" />
   </java-to-managed>
   <managed-to-java>
-    <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554456" />
-    <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554457" />
+    <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554457" />
+    <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554458" />
   </managed-to-java>
 </api>

@@ -44,42 +44,65 @@
                                    HasShadow="True"
                                    BackgroundColor="{AppThemeBinding Light=White, Dark=#1f2937}">
 
-                            <Grid ColumnDefinitions="Auto,*,Auto"
+                            <Grid ColumnDefinitions="Auto,*,*,Auto"
                                   RowDefinitions="Auto,Auto"
                                   ColumnSpacing="10"
-                                  RowSpacing="4">
+                                  RowSpacing="2">
 
-                                <!-- FOLIO(ID)-->
+                                <!-- FOLIO -->
                                 <Label Text="{Binding Folio}"
                                        Grid.Row="0"
                                        Grid.Column="0"
                                        FontAttributes="Bold"
-                                       FontSize="16"
-                                       TextColor="{AppThemeBinding Light=Black, Dark=#f9fafb}" /> 
+                                       FontSize="15"
+                                       VerticalOptions="Center"
+                                       TextColor="{AppThemeBinding Light=Black, Dark=#f9fafb}" />
 
-                                <!-- NOMBRE -->
+                                <!-- NOMBRE (expandible) -->
                                 <Label Text="{Binding Nombre}"
                                        Grid.Row="0"
                                        Grid.Column="1"
                                        FontAttributes="Bold"
-                                       FontSize="16"
+                                       FontSize="15"
                                        LineBreakMode="TailTruncation"
+                                       VerticalOptions="Center"
                                        TextColor="{AppThemeBinding Light=Black, Dark=#f9fafb}" />
+
+                                <!-- SERVICIO x CANTIDAD -->
+                                <Label Grid.Row="0"
+                                       Grid.Column="2"
+                                       HorizontalOptions="Center"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalOptions="Center"
+                                       FontSize="14"
+                                       TextColor="Gray">
+
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Servicio}" />
+                                            <Span Text=" x" />
+                                            <Span Text="{Binding Cantidad}" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+
+                                </Label>
 
                                 <!-- PRECIO -->
                                 <Label Text="{Binding Precio, StringFormat='${0:N2}'}"
                                        Grid.Row="0"
-                                       Grid.Column="2"
+                                       Grid.Column="3"
                                        FontAttributes="Bold"
                                        FontSize="16"
-                                       TextColor="Green"
-                                       HorizontalTextAlignment="End" />
+                                       TextColor="#16a34a"
+                                       HorizontalTextAlignment="End"
+                                       VerticalOptions="Center" />
 
-                                <!-- HORA -->
+                                <!-- HORA debajo del precio -->
                                 <Label Text="{Binding Hora}"
                                        Grid.Row="1"
-                                       Grid.Column="2"
+                                       Grid.Column="3"
                                        FontSize="12"
+                                       Opacity="0.8"
                                        TextColor="Gray"
                                        HorizontalTextAlignment="End" />
 
