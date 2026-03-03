@@ -3,15 +3,14 @@
     x:Class="AppScanner.MainPage"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
     BackgroundColor="#f4f6f9"
     Shell.NavBarIsVisible="False">
 
-    <Grid RowDefinitions="Auto,*,Auto">
+    <Grid RowDefinitions="Auto,*">
 
-        <!-- HEADER -->
+        <!-- HEADER (IGUAL QUE COMIDA) -->
         <Grid BackgroundColor="#1e1e2f" HeightRequest="60">
-            <Label Text=""
+            <Label Text="Seleccionar Operación"
                    TextColor="White"
                    FontSize="18"
                    FontAttributes="Bold"
@@ -19,108 +18,139 @@
                    HorizontalOptions="Center"/>
         </Grid>
 
-        <!-- CONTENT -->
+        <!-- CONTENIDO -->
         <VerticalStackLayout Grid.Row="1"
                              Padding="20"
-                             Spacing="15">
+                             Spacing="20"
+                             VerticalOptions="Center">
 
-            <!-- CAMARA -->
-            <Frame CornerRadius="20"
+            <!-- COMIDA -->
+            <Frame x:Name="CardComida"
+                   CornerRadius="20"
                    HasShadow="True"
-                   Padding="0"
-                   BackgroundColor="White"
-                   HeightRequest="420">
-
-                <Grid>
-                    <toolkit:CameraView
-                        x:Name="cameraView"
-                        HorizontalOptions="Fill"
-                        VerticalOptions="Fill" />
-
-                    <!-- Overlay carga -->
-                    <Grid x:Name="overlay"
-                          BackgroundColor="#88000000"
-                          IsVisible="False">
-
-                        <ActivityIndicator x:Name="loader"
-                                           IsRunning="True"
-                                           Color="White"
-                                           VerticalOptions="Center"
-                                           HorizontalOptions="Center"/>
-                    </Grid>
-                </Grid>
-            </Frame>
-
-            <!-- PRECIO OPCIONAL -->
-            <Frame CornerRadius="15"
-                   HasShadow="True"
-                   Padding="12"
+                   Padding="18"
                    BackgroundColor="White">
 
-                <VerticalStackLayout Spacing="8">
+                <Grid ColumnDefinitions="Auto,*,Auto"
+                      ColumnSpacing="15">
 
-                    <HorizontalStackLayout Spacing="10">
-                        <CheckBox x:Name="chkPrecioManual"
-                                  Color="#1e1e2f"
-                                  CheckedChanged="OnPrecioManualChecked"/>
+                    <Image Source="comida.png"
+                           WidthRequest="45"
+                           HeightRequest="45"
+                           VerticalOptions="Center"/>
 
-                        <Label Text="Asignar precio manual"
-                               VerticalOptions="Center"
-                               TextColor="#1e1e2f"
-                               FontAttributes="Bold"/>
-                    </HorizontalStackLayout>
+                    <VerticalStackLayout Grid.Column="1"
+                                         VerticalOptions="Center">
 
-                    <Entry x:Name="txtPrecioManual"
-                           Placeholder="Ej: 10.00"
-                           Keyboard="Numeric"
-                           IsEnabled="False"
-                           BackgroundColor="#f4f6f9"
-                           TextColor="#1e1e2f"
-                           HeightRequest="45"/>
-                </VerticalStackLayout>
+                        <Label Text="Comida"
+                               FontSize="17"
+                               FontAttributes="Bold"
+                               TextColor="#1e1e2f"/>
+
+                        <Label Text="Registrar comida del día"
+                               FontSize="13"
+                               TextColor="Gray"/>
+                    </VerticalStackLayout>
+
+                    <Label Grid.Column="2"
+                           Text="›"
+                           FontSize="22"
+                           TextColor="#3b82f6"
+                           VerticalOptions="Center"/>
+                </Grid>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnOperacionTapped"
+                        CommandParameter="Comida"/>
+                </Frame.GestureRecognizers>
             </Frame>
 
+            <!-- DESAYUNO -->
+            <Frame x:Name="CardDesayuno"
+                   CornerRadius="20"
+                   HasShadow="True"
+                   Padding="18"
+                   BackgroundColor="White">
 
-            <!-- BOTONES -->
-            <Grid ColumnDefinitions="*,*" ColumnSpacing="15">
+                <Grid ColumnDefinitions="Auto,*,Auto"
+                      ColumnSpacing="15">
 
-                <Button Text="ENVIAR"
-                        Clicked="OnCaptureAndSend"
-                        HeightRequest="55"
-                        CornerRadius="15"
-                        FontAttributes="Bold"
-                        FontSize="16"
-                        TextColor="White"
-                        BackgroundColor="#1e1e2f"/>
+                    <Image Source="desayuno.png"
+                           WidthRequest="45"
+                           HeightRequest="45"
+                           VerticalOptions="Center"/>
 
-                <Button Text="HISTORIAL"
-                        Grid.Column="1"
-                        Clicked="OnHistorialClicked"
-                        HeightRequest="55"
-                        CornerRadius="15"
-                        FontAttributes="Bold"
-                        FontSize="16"
-                        TextColor="White"
-                        BackgroundColor="#3b82f6"/>
-            </Grid>
+                    <VerticalStackLayout Grid.Column="1"
+                                         VerticalOptions="Center">
+
+                        <Label Text="Desayuno"
+                               FontSize="17"
+                               FontAttributes="Bold"
+                               TextColor="#1e1e2f"/>
+
+                        <Label Text="Registrar desayuno"
+                               FontSize="13"
+                               TextColor="Gray"/>
+                    </VerticalStackLayout>
+
+                    <Label Grid.Column="2"
+                           Text="›"
+                           FontSize="22"
+                           TextColor="#3b82f6"
+                           VerticalOptions="Center"/>
+                </Grid>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnOperacionTapped"
+                        CommandParameter="Desayuno"/>
+                </Frame.GestureRecognizers>
+            </Frame>
+
+            <!-- PEDIDO -->
+            <Frame x:Name="CardPedido"
+                   CornerRadius="20"
+                   HasShadow="True"
+                   Padding="18"
+                   BackgroundColor="White">
+
+                <Grid ColumnDefinitions="Auto,*,Auto"
+                      ColumnSpacing="15">
+
+                    <Image Source="pedido.png"
+                           WidthRequest="45"
+                           HeightRequest="45"
+                           VerticalOptions="Center"/>
+
+                    <VerticalStackLayout Grid.Column="1"
+                                         VerticalOptions="Center">
+
+                        <Label Text="Pedido"
+                               FontSize="17"
+                               FontAttributes="Bold"
+                               TextColor="#1e1e2f"/>
+
+                        <Label Text="Registrar pedidos especiales"
+                               FontSize="13"
+                               TextColor="Gray"/>
+                    </VerticalStackLayout>
+
+                    <Label Grid.Column="2"
+                           Text="›"
+                           FontSize="22"
+                           TextColor="#3b82f6"
+                           VerticalOptions="Center"/>
+                </Grid>
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                        Tapped="OnOperacionTapped"
+                        CommandParameter="Pedido"/>
+                </Frame.GestureRecognizers>
+            </Frame>
 
         </VerticalStackLayout>
-
-        <!-- MENSAJE -->
-        <Frame x:Name="responseFrame"
-               Grid.Row="2"
-               BackgroundColor="#1e1e2f"
-               Padding="12"
-               IsVisible="False"
-               Opacity="0">
-
-            <Label x:Name="responseLabel"
-                   TextColor="White"
-                   HorizontalTextAlignment="Center"/>
-        </Frame>
-
-       
-
 
     </Grid>
 </ContentPage>

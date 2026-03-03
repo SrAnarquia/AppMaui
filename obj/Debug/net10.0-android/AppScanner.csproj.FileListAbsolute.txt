@@ -2830,11 +2830,9 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\androi
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.XamlTapContract.jlo.xml
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\assets\x86_64\Microsoft.VisualStudio.DesignTools.XamlTapContract.typemap.xml
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\assets\navigation.mp3
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
-C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\AppScanner.csproj.Up2Date
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\resizetizer\r\drawable\comida.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\resizetizer\r\drawable\desayuno.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\resizetizer\r\drawable\pedido.png
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\typemaps.arm64-v8a.ll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\environment.arm64-v8a.ll
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\marshal_methods.arm64-v8a.ll
@@ -2845,3 +2843,8 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\androi
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\marshal_methods.arm64-v8a.o
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\android\jni_remap.arm64-v8a.o
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\app_shared_libraries\arm64-v8a\libxamarin-app.so
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\bin\Debug\net10.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-android\AppScanner.csproj.Up2Date

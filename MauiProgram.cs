@@ -27,9 +27,18 @@ namespace AppScanner
                 ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true 
             };
 
+            /*Servicios*/
             builder.Services.AddSingleton(new HttpClient(handler));
             builder.Services.AddSingleton(AudioManager.Current);
             builder.Services.AddSingleton<SoundService>();
+            builder.Services.AddSingleton<ScannerService>();
+
+
+            /*Registro de paginas*/
+            builder.Services.AddTransient<ComidaPage>();
+            builder.Services.AddTransient<DesayunoPage>();
+            builder.Services.AddTransient<PedidoPage>();
+            builder.Services.AddTransient<MainPage>();
 
 
 #if DEBUG

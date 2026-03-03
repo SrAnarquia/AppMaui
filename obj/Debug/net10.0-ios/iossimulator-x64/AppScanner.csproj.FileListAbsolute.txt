@@ -325,3 +325,6 @@ C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulat
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\AppScanner.pdb
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\AppScanner.genruntimeconfig.cache
 C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\ref\AppScanner.dll
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\comida.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\desayuno.png
+C:\Users\Jonathan Corpus\Desktop\MVP\AppScanner\obj\Debug\net10.0-ios\iossimulator-x64\resizetizer\r\Resources\pedido.png

@@ -7,8 +7,10 @@ namespace AppScanner
         public App()
         {
             InitializeComponent();
-            
 
+            Routing.RegisterRoute(nameof(ComidaPage), typeof(ComidaPage));
+            Routing.RegisterRoute(nameof(DesayunoPage), typeof(DesayunoPage));
+            Routing.RegisterRoute(nameof(PedidoPage), typeof(PedidoPage));
 
         }
 
