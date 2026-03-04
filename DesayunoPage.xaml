@@ -1,12 +1,178 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppScanner.DesayunoPage"
-             Title="DesayunoPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+<ContentPage
+    x:Class="AppScanner.DesayunoPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    BackgroundColor="#f4f6f9"
+    Shell.NavBarIsVisible="False">
+
+    <Grid RowDefinitions="Auto,Auto,*,Auto">
+
+        <!-- HEADER -->
+        <Grid BackgroundColor="#1e1e2f"
+              HeightRequest="60"
+              Padding="10,0">
+
+            <ImageButton
+                Source="back.png"
+                Clicked="OnBack"
+                BackgroundColor="Transparent"
+                WidthRequest="40"
+                HeightRequest="40"
+                HorizontalOptions="Start"
+                VerticalOptions="Center" />
+
+            <Label Text="Desayunos"
+                   TextColor="White"
+                   FontSize="18"
+                   FontAttributes="Bold"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+        </Grid>
+
+        <!-- CAMARA FIJA -->
+        <Frame Grid.Row="1"
+               CornerRadius="20"
+               HasShadow="True"
+               Padding="0"
+               Margin="20,20,20,10"
+               BackgroundColor="White"
+               VerticalOptions="FillAndExpand">
+
+            <Grid>
+                <toolkit:CameraView
+                    x:Name="cameraView"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand" />
+
+                <Grid x:Name="overlay"
+                      BackgroundColor="#88000000"
+                      IsVisible="False">
+
+                    <ActivityIndicator x:Name="loader"
+                                       IsRunning="True"
+                                       Color="White"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"/>
+                </Grid>
+            </Grid>
+        </Frame>
+
+        <!-- CONTENIDO CON SCROLL -->
+        <ScrollView Grid.Row="2">
+
+            <VerticalStackLayout Spacing="18"
+                                 Padding="20,0,20,20">
+
+                <!-- PRECIO OPCIONAL -->
+                <Frame CornerRadius="18"
+                       HasShadow="True"
+                       Padding="18"
+                       BackgroundColor="White">
+
+                    <VerticalStackLayout Spacing="12">
+
+                        <Grid ColumnDefinitions="Auto,*"
+                              ColumnSpacing="10">
+
+                            <Switch x:Name="swPrecioManual"
+                                    OnColor="#1e1e2f"
+                                    Toggled="OnPrecioManualToggled"
+                                    VerticalOptions="Center"/>
+
+                            <Label Grid.Column="1"
+                                   Text="Asignar precio manual"
+                                   VerticalOptions="Center"
+                                   TextColor="#1e1e2f"
+                                   FontAttributes="Bold"
+                                   LineBreakMode="WordWrap"/>
+                        </Grid>
+
+                        <!-- Inputs suavizados -->
+                        <VerticalStackLayout x:Name="precioManualContainer"
+                                             IsVisible="False"
+                                             Opacity="0"
+                                             Spacing="12">
+
+                            <Frame CornerRadius="12"
+                                   Padding="8"
+                                   BackgroundColor="#f0f2f5"
+                                   HasShadow="False">
+
+                                <Entry x:Name="txtPrecioManual"
+                                       Placeholder="Precio (Ej: 10.00)"
+                                       Keyboard="Numeric"
+                                       BackgroundColor="Transparent"
+                                       TextColor="#1e1e2f"
+                                       HeightRequest="40"/>
+                            </Frame>
+
+                            <Frame CornerRadius="12"
+                                   Padding="8"
+                                   BackgroundColor="#f0f2f5"
+                                   HasShadow="False">
+
+                                <Entry x:Name="txtDescripcion"
+                                         Placeholder="Ej: Tortillas, Sopa..."
+                                         FontSize="15"
+                                         BackgroundColor="Transparent"
+                                         TextColor="#1e1e2f"
+                                         HeightRequest="52"
+                                         ClearButtonVisibility="WhileEditing"/> 
+                            </Frame>
+
+                        </VerticalStackLayout>
+
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- BOTONES MÁS COMPACTOS -->
+                <Grid ColumnSpacing="12">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+
+                    <Button Text="ENVIAR"
+                            Clicked="OnCaptureAndSend"
+                            CornerRadius="14"
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="White"
+                            BackgroundColor="#1e1e2f"
+                            HeightRequest="45"/>
+
+                    <Button Text="HISTORIAL"
+                            Grid.Column="1"
+                            Clicked="OnHistorialClicked"
+                            CornerRadius="14"
+                            FontAttributes="Bold"
+                            FontSize="15"
+                            TextColor="White"
+                            BackgroundColor="#3b82f6"
+                            HeightRequest="45"/>
+                </Grid>
+
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <!-- MENSAJE ORIGINAL  -->
+        <Frame x:Name="responseFrame"
+               Grid.Row="3"
+               BackgroundColor="#1e1e2f"
+               Padding="12"
+               IsVisible="False"
+               Opacity="0">
+
+            <Label x:Name="responseLabel"
+                   TextColor="White"
+                   HorizontalTextAlignment="Center"/>
+        </Frame>
+
+
+
+
+    </Grid>
 </ContentPage>

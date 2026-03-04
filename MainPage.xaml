@@ -8,9 +8,10 @@
 
     <Grid RowDefinitions="Auto,*">
 
-        <!-- HEADER (IGUAL QUE COMIDA) -->
+        <!-- HEADER -->
         <Grid BackgroundColor="#1e1e2f" HeightRequest="60">
-            <Label Text="Seleccionar Operación"
+            <Label x:Name="LblFecha"
+                   Text="Precios"
                    TextColor="White"
                    FontSize="18"
                    FontAttributes="Bold"
@@ -23,6 +24,54 @@
                              Padding="20"
                              Spacing="20"
                              VerticalOptions="Center">
+
+            <!-- ROW PRECIOS -->
+            <Grid ColumnDefinitions="*,*"
+                  ColumnSpacing="15">
+
+                <!-- CARD PRECIO COMIDA -->
+                <Frame Grid.Column="0"
+                       CornerRadius="20"
+                       HasShadow="True"
+                       Padding="20"
+                       BackgroundColor="White">
+
+                    <VerticalStackLayout Spacing="5">
+
+                        <Label Text="Comida"
+                               FontSize="14"
+                               TextColor="Gray"/>
+
+                        <Label x:Name="LblPrecioComida"
+                               Text="0.00"
+                               FontSize="28"
+                               FontAttributes="Bold"
+                               TextColor="#16a34a"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+                <!-- CARD PRECIO DESAYUNO -->
+                <Frame Grid.Column="1"
+                       CornerRadius="20"
+                       HasShadow="True"
+                       Padding="20"
+                       BackgroundColor="White">
+
+                    <VerticalStackLayout Spacing="5">
+
+                        <Label Text="Desayuno"
+                               FontSize="14"
+                               TextColor="Gray"/>
+
+                        <Label x:Name="LblPrecioDesayuno"
+                               Text="0.00"
+                               FontSize="28"
+                               FontAttributes="Bold"
+                               TextColor="#f59e0b"/>
+                    </VerticalStackLayout>
+                </Frame>
+
+            </Grid>
 
             <!-- COMIDA -->
             <Frame x:Name="CardComida"

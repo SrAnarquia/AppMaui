@@ -84,8 +84,21 @@
                                             <Span Text="{Binding Cantidad}" />
                                         </FormattedString>
                                     </Label.FormattedText>
-
+                                   
                                 </Label>
+
+
+                                <!-- DESCRIPCIÓN debajo de Servicio -->
+                                <Label Text="{Binding Descripcion}"
+                                       Grid.Row="1"
+                                       Grid.Column="2"
+                                       FontSize="12"
+                                       Opacity="0.8"
+                                       TextColor="Gray"
+                                       HorizontalTextAlignment="Center"
+                                       IsVisible="{Binding Descripcion.Length}" />
+                                 
+
 
                                 <!-- PRECIO -->
                                 <Label Text="{Binding Precio, StringFormat='${0:N2}'}"

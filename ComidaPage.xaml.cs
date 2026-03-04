@@ -63,6 +63,7 @@ public partial class ComidaPage : ContentPage
             //Parametros para registrar
             decimal? precioManual = null;
             string? descripcion = "";
+            int? cantidad = 1;
             string? servicio = "Comida";
 
             if (swPrecioManual.IsToggled)

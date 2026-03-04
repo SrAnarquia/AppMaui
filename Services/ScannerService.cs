@@ -14,9 +14,10 @@ public class ScannerService
 
     public async Task<(bool success, string message)> EnviarImagenAsync(
         Stream imageStream,
-        decimal? precioManual,
-        string? servicio,
-        string? descripcion)
+        decimal? precioManual=null,
+        string? servicio=null,
+        string? descripcion = null,
+        int? cantidad = null)
     {
         try
         {
@@ -49,6 +50,8 @@ public class ScannerService
             //Se agrega descripcion de servicio
             content.Add(new StringContent(descripcion), "descripcion");
 
+            //Se agrega cantidad de servicio
+            content.Add(new StringContent(cantidad.ToString()),"cantidad");
 
 
             //Se agrega contenido

@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="AppScanner" mvid="a72e487bcdf64a30a559ab92cb975342">
+<api type="debug" assembly-name="AppScanner" mvid="062880d206f94bbfa96b185e5950863a">
   <java-to-managed>
     <entry java-name="crc6482ad75b5178a751d/MainActivity" managed-name="AppScanner.MainActivity, AppScanner" managed-type-token-id="33554457" />
     <entry java-name="crc6482ad75b5178a751d/MainApplication" managed-name="AppScanner.MainApplication, AppScanner" managed-type-token-id="33554458" />

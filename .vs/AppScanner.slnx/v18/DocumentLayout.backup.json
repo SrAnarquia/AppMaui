@@ -3,24 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\comidapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:comidapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\comidapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:comidapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\historialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:historialpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\historialpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:historialpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\services\\scannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:services\\scannerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|c:\\users\\jonathan corpus\\desktop\\mvp\\appscanner\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A8AB835-80A5-E81C-29CC-DAA2FA3E9ED5}|AppScanner.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HistorialPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml.cs",
-              "RelativeDocumentMoniker": "HistorialPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml.cs",
-              "RelativeToolTip": "HistorialPage.xaml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAqwGoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T23:06:49.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HistorialPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml",
-              "RelativeDocumentMoniker": "HistorialPage.xaml",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\HistorialPage.xaml",
-              "RelativeToolTip": "HistorialPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-03T23:06:47.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ScannerService.cs",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\Services\\ScannerService.cs",
-              "RelativeDocumentMoniker": "Services\\ScannerService.cs",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\Services\\ScannerService.cs",
-              "RelativeToolTip": "Services\\ScannerService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwDcAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T23:06:24.77Z",
+              "WhenOpened": "2026-03-04T22:28:15.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ComidaPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\ComidaPage.xaml.cs",
-              "RelativeDocumentMoniker": "ComidaPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\ComidaPage.xaml.cs",
-              "RelativeToolTip": "ComidaPage.xaml.cs",
-              "ViewState": "AgIAAJwAAAAAAAAAAADwv9gAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T21:55:15.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ComidaPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\ComidaPage.xaml",
-              "RelativeDocumentMoniker": "ComidaPage.xaml",
-              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\ComidaPage.xaml",
-              "RelativeToolTip": "ComidaPage.xaml",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAwKcAAAAAAAAAAAAAAA==",
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\Jonathan Corpus\\Desktop\\MVP\\AppScanner\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAALgAAAAAAAAAAAAqwMAAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-03-03T21:33:04.462Z",
+              "WhenOpened": "2026-03-04T22:29:45.901Z",
               "EditorCaption": ""
             }
           ]

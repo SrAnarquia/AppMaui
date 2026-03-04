@@ -120,6 +120,7 @@
                                         BackgroundColor="Transparent"
                                         TextColor="#1e1e2f"
                                         HeightRequest="70"/>
+
                             </Frame>
 
                         </VerticalStackLayout>
